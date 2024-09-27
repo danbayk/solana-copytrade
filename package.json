@@ -1,0 +1,35 @@
+{
+  "name": "get-parsed-instructions-of-raydium-amm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "impin2rex",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/lodash": "^4.17.4",
+    "@types/node": "^20.10.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@metaplex-foundation/js": "^0.20.1",
+    "@openbook-dex/openbook": "^0.0.9",
+    "@project-serum/anchor": "^0.26.0",
+    "@raydium-io/raydium-sdk": "^1.3.1-beta.58",
+    "@shyft-to/solana-transaction-parser": "^1.1.17",
+    "@solana/buffer-layout": "^4.0.1",
+    "@solana/buffer-layout-utils": "^0.2.0",
+    "@solana/spl-token": "^0.4.8",
+    "@solana/web3.js": "^1.95.2",
+    "@triton-one/yellowstone-grpc": "^0.4.0",
+    "bn.js": "^5.2.1",
+    "bs58": "^6.0.0",
+    "dotenv": "^16.4.5",
+    "lodash": "^4.17.21"
+  }
+}
